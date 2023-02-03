@@ -4,11 +4,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link
+      rel="icon"
+      href="./images/logo2.png"
+    />
+    <title>Sanjay V</title>
+     <!-- font awesome cdn link  -->
+     <link
+     rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+   />
+    <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
-    <h1>Welcome</h1>
-    <img src="./images/finalimg-removebg-preview.png" alt="">
-    <h2>Sanjay V</h2>
+   <header>
+        <div class="user"> 
+            <img 
+            style="background-color: rgb(224, 211, 211)"
+            src="./images/finalimg-removebg-preview.png" alt="" />
+            <h3 class="name">Sanjay V</h3>
+            <p class="post">Back End Developer</p>
+        </div>
+
+        <nav id="nav-menu">
+            <ul>
+                <li id="home"><a href="#home2">home</a></li>
+                <li id="about" class="about section"><a href="#about2">about</a></li>
+                <li id="skills"><a href="#portfolio">skills</a></li>
+                <li id="projects"><a href="#education">project</a></li>
+                <li id="contact"><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+   </header>
+
+   <!------header section ends here-->
+
+   <div id="menu" class="fas fa-bars"></div>
+
+   <!-----home section starts here-->
+
+   <section class="nav-link home" id="home2">
+    <h3>HI THERE !</h3>
+    <h1>I'M <span id="user-detail-name">Sanjay  V</span></h1>
+    <p style="font-size: 5rem">a bit more about me :</p>
+    <div>
+      <a href="#about2"
+        ><button class="btn">about me <i class="fas fa-user"></i></button
+      ></a>
+      <a target="_blank" href="./Sanjay_V_Resume.pdf"
+        ><button class="btn">My Resume <i class="fas fa-download"></i></button
+      ></a>
+    </div>
+  </section>
+
+  <!------about section starts-->
+
+
+  <section class="nav-link about" id="about2">
+    <h1 class="heading"><span>about</span> me</h1>
+
+    <div class="row">
+      <div class="info">
+        <div class="home" id="home">
+          <p id="user-detail-intro">
+            I am currently learning Backend development at Masai
+            School. I am passionate about solving real-world problems and
+            actively looking for opportunities in the field of web development
+            and software engineering.
+          </p>
+        </div>
+        <div class="img_marping">
+          <img
+            src="https://www.sarvika.com/wp-content/uploads/2021/03/Backend-Developer-Python-GIF-Dribble.gif"
+            alt="Vandna Tiwari"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+ <!-- scroll top button  -->
+
+ <a href="#home2" class="top">
+    <img src="./images/scroll-top-img.png" alt="" />
+  </a>
+
+  <!-- jquery cdn link  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./js/index.js"></script>
 </body>
 </html>
