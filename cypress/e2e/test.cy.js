@@ -153,7 +153,7 @@ describe("Test", function () {
                 "CSS",
                 "Express",
               ];
-
+              console.log(stack);
               let Stack_value = 0;
               for (let i = 0; i < stack.length; i++) {
                 if (text.includes(stack[i])) {
