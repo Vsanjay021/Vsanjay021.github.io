@@ -140,6 +140,7 @@ describe("Test", function () {
             .get("#user-detail-intro")
             .each((el) => {
               let text = el[0].innerText;
+              console.log(text);
               let stack = [
                 "MERN",
                 "JavaScript",
