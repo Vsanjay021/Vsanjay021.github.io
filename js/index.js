@@ -37,3 +37,16 @@ $(document).ready(function () {
   function gotodrive(){
     window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
   }
+
+  GitHubCalendar(".calendar", "Vsanjay021");
+
+  // or enable responsive functionality:
+  GitHubCalendar(".calendar", "Vsanjay021", { responsive: true });
+
+  // Use a proxy
+  const username="Vsanjay021"
+  GitHubCalendar(".calendar", "Vsanjay021", {
+     proxy (username) {
+       return fetch(`https://your-proxy.com/github?user=${username}`)
+     }
+  }).then(r => r.text())

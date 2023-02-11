@@ -5,5 +5,6 @@
     "start": ""
   },
   "dependencies": {
+    "github-calendar": "^2.3.2"
   }
 }
