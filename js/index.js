@@ -49,4 +49,4 @@ $(document).ready(function () {
      proxy (username) {
        return fetch(`https://your-proxy.com/github?user=${username}`)
      }
-  }).then(r => r.text())
+  }).then((r) => console.log(r)).catch((err)=>console.log(err));
