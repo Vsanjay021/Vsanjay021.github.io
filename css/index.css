@@ -204,6 +204,60 @@
     margin-top: 20px;
   }
 
+
+  .projects .box-container {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    padding-left: 3rem;
+  }
+  
+  .projects .box-container .project-card {
+    width: 53rem;
+    margin: 4rem 1rem;
+    padding-left: 4rem;
+    border-left: 0.2rem solid #fff;
+    position: relative;
+  }
+  
+  .projects .box-container .project-card span {
+    font-size: 1.3rem;
+    background: #222;
+    color: #fff;
+    border-radius: 5rem;
+    padding: 0.5rem 2.5rem;
+  }
+  
+  .projects .box-container .project-card h3 {
+    font-size: 2.9rem;
+    color: #fff;
+    padding-top: 1.5rem;
+  }
+  
+  .projects .box-container .project-card p {
+    line-height: 2.7rem;
+    font-size: 2rem;
+    color: #eee;
+    padding: 1rem 0;
+  }
+  
+  .projects .box-container .project-card i {
+    position: absolute;
+    top: -1.5rem;
+    left: -2.5rem;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--yellow);
+  }
+  .project_image {
+    width: 100%;
+  }
 /* media queries  */
 
 @media (max-width: 1200px) {
@@ -253,7 +307,7 @@
     width: 80%;
   }
 
-  .education .box-container .box {
+  .projects .box-container .project-card {
     width: 100%;
   }
 
