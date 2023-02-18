@@ -125,14 +125,11 @@
     font-size: 2rem;
     border-radius: 5rem;
   }
-  #resume-button-1{
-    color: #fff;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-  header #nav-menu ul li a:hover{
+  
+  header #nav-menu ul li a:hover {
     background: var(--yellow);
   }
+
   #menu {
     position: fixed;
     top: 2rem;
