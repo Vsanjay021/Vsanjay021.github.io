@@ -21,7 +21,7 @@
   }
   html {
     font-size: 62.5%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
 
   html::-webkit-scrollbar {
@@ -38,7 +38,7 @@
 
   body {
     background: #111;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     padding-left: 35rem;
   }
   section {
