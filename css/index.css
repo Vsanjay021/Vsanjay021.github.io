@@ -263,7 +263,7 @@
     width: 100%;
   }
 /* media queries  */
-
+/* 
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
@@ -298,8 +298,8 @@
     flex-direction: column;
     text-align: center;
   }
-}
-
+} */
+/* 
 @media (max-width: 768px) {
   html {
     font-size: 50%;
@@ -333,7 +333,7 @@
 
   .contact .row form {
     margin: 3rem 0;
-  }
+  } */
   #statisticsdiv>div:nth-child(1){
     flex-direction: column;
     text-align: center;
