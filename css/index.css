@@ -3,7 +3,9 @@
 :root {
   --yellow: #f9ca24;
 }
-
+#nav-menu ul li:nth-child(6) button:hover{
+  background-color:white ;
+}
 * {
   font-family: "Nunito", sans-serif;
   margin: 0;
