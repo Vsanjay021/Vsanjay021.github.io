@@ -30,13 +30,13 @@ $(document).ready(function () {
     })
   })
   
-  function hello() {
-    console.log("hii")
-  }
+  // function hello() {
+  //   console.log("hii")
+  // }
   
-  function gotodrive(){
-    window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
-  }
+  // function gotodrive(){
+  //   window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
+  // }
 
   GitHubCalendar(".calendar", "Vsanjay021");
 
@@ -50,3 +50,12 @@ $(document).ready(function () {
        return fetch(`https://your-proxy.com/github?user=${username}`)
      }
   }).then((r) => console.log(r));
+
+  
+  let resumebtn1=document.getElementById("resume-button-1").addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
+  })
+
+  // let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
+  //   window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
+  // })
