@@ -34,9 +34,9 @@ $(document).ready(function () {
   //   console.log("hii")
   // }
   
-  // function gotodrive(){
-  //   window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
-  // }
+  function gotodrive(){
+    window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
+  }
 
   GitHubCalendar(".calendar", "Vsanjay021");
 
