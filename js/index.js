@@ -56,6 +56,6 @@ $(document).ready(function () {
     window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
   })
 
-  // let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
-  //   window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
-  // })
+  let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
+    window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
+  })
