@@ -283,6 +283,9 @@
     flex-direction: column;
     text-align: center;
   }
+  #statisticsdiv>div:nth-child(1) img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 991px) {
@@ -305,6 +308,9 @@
     flex-direction: column;
     text-align: center;
   }
+  #statisticsdiv>div:nth-child(1) img{
+    width: 100%;
+  }
 }
 
 @media (max-width: 768px) {
@@ -315,6 +321,15 @@
     flex-direction: column;
     text-align: center;
   }
+  #statisticsdiv>div:nth-child(1) img{
+    width: 100%;
+  }
+  /* .react-activity-calendar{
+    width: 100%;
+  }
+  .calendar{
+    width: 100%;
+  } */
 }
 
 @media (max-width: 400px) {
@@ -347,7 +362,16 @@
     width: 100%;
     /* border: 1px solid red; */
   }
-  #calender{
+  /* .react-activity-calendar{
+    width: 100%;
+  }
+  .calendar{
+    width: 100%;
+  } */
+  #statisticsdiv>div:nth-child(1) img{
+    width: 100%;
+  }
+  #statisticsdiv>div:nth-child(2) img{
     width: 100%;
   }
 }
@@ -375,6 +399,7 @@
   border-top: 0.1rem solid #fff4;
   margin-top: 10px;
   margin-bottom: 10px;
+  /* border: 1px solid red; */
 }
 #statisticsdiv>div:nth-child(1){
   display: flex;
@@ -382,6 +407,8 @@
   margin: auto;
   margin-top: 20px;
   margin-bottom: 20px;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
 }
 #statisticsdiv>div:nth-child(1)>div{
   margin: 5px;
@@ -413,6 +440,7 @@
   text-align: center;
   margin-top:20px;
   border-top: 0.1rem solid #fff4;;
+  /* border: 1px solid red; */
 }
 
 #contact .row .content {
