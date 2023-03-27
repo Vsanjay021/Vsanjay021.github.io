@@ -35,13 +35,17 @@
 
         <nav id="nav-menu">
           <ul >
-              <li  id="home"><a href="#gohome">home</a></li>
-              <li  id="about" class="about section"><a href="#goabout">About</a></li>
-              <li  id="skills"><a href="#goskill">skills</a></li>
-              <li  id="projects"><a href="#goproject">project</a></li>
-              <li  id="contact"><a href="#gocontact">contact</a></li>
-              <li id="resume-button-1" class="nav-link resume" ><a href="./Sanjay_V_Resume.pdf" target="_blank" id="resume-link-1" download="./Sanjay_V_Resume.pdf">Resume</a></li>
-          </ul>
+              <li ><a href="#home" class="nav-link home">home</a></li>
+              <li ><a href="#about" class="nav-link about">About</a></li>
+              <li ><a href="#skills" class="nav-link skills">skills</a></li>
+              <li ><a href="#projects" class="nav-link projects">project</a></li>
+              <li ><a href="#contact" class="nav-link contact">contact</a></li>
+              <li class="nav__item" id="resume-button-1"  class="nav__link" >
+                <a href="./Sanjay_V_Resume.pdf" id="resume-link-1" class="nav-link resume"
+                    download="Sanjay_V_Resume.pdf">
+                    <p>Resume</p> </a>
+            </li>
+            </ul>
       </nav>
    </header>
 
@@ -51,37 +55,33 @@
 
    <!-----home section starts here-->
 
-   <section id="gohome" class="nav-link home" id="home" >
+   <section id="home" >
     <h3>HI THERE !</h3>
-    <h1>I'M <span id="user-detail-name">Sanjay  V</span></h1>
-    <p style="font-size: 5rem">a bit more about me :</p>
+    <h1>I'M <span >Sanjay  V</span></h1>
+    <p style="font-size: 5rem">Node Backend Developer...</p><br><br>
     <div>
-      <a href="#about2"
+      <!-- <a href="#about"
         ><button class="btn">About me <i class="fas fa-user"></i></button
-      ></a>
-      <a  id="resume-button-2"  href="./Sanjay_V_Resume.pdf" target="_blank" download="./Sanjay_V_Resume.pdf"  
-      ><button  class="btn" >My Resume </button
-    ></a>
-    
+      ></a> -->
+    <span id="resume-button-2" class="btn"><a href="./Sanjay_V_Resume.pdf" download="Sanjay_V_Resume" id="resume-link-2" class="btn">Resume</a></span>
     </div>
   </section>
 
   <!------about section starts-->
 
-
-  <section id="goabout" class="nav-link about" id="about" >
-    <h1 class="heading"><span>About</span> me</h1>
+  <section id="about" class="about section">
+    <h1 class="heading" ><span id="user-detail-name">about</span> me</h1>
 
     <div class="row">
       <div class="info">
-        <div class="home">
-          <div >
-            <h1 id="user-detail-name">Sanjay V</h1>
-            <p id="user-detail-intro" class="about-text" >
-              A passionate NodeJS Backend Developer HTML | CSS | JAVASCRIPT | NODE.js, Dedicated to developing robust applications that interact with the Backend part of web applications. Extensive expertise in website architecture, design, and web design, and web API designs. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.
-            </p>
-          </div>
-          
+        <div id="aboutInfo">
+          <p id="user-detail-intro">
+            A headstrong and inquisitive, aspiring Backend developer. Ability to design, develop, & deliver user-centric web applications using JavaScript, HTML, CSS to boost customer engagement. highly
+            skilled in bulding robust and scalable applications and web API
+            designs using JavaScript and MongoDB. Effective remote collaborator with
+            an immense passion for building good software, looking forward to a
+            sparkling career as a Node Back-End Developer.
+          </p>
         </div>
         <div class="img_marping">
           <img class="home-img"
@@ -96,7 +96,7 @@
   <!-----skill section starts-->
 
 
-  <section id="goskill" class="nav-link skills" id="skills"  >
+  <section  id="skills"  >
     <h1 class="heading"><span>Skills</span></h1>
     <div class="row">
       <div class="info">
@@ -105,20 +105,20 @@
             <h2 class="heading"><span>Languages</span></h2>
             <div class="counter">
               <div class="box">
-                <div class="skills-card"  >
+                <div class="skills-card skill">
                   <img class="skills-card-img" src="./images/html-5.svg" alt="" />
                   <span class="skills-card-name">HTML5 </span>
                 </div>
               </div>
               
               <div class="box">
-                <div class="skills-card"  >
+                <div class="skills-card skill">
                   <img  class="skills-card-img" src="./images/css-3.svg" alt="" />
                   <span class="skills-card-name">CSS3 </span>
                 </div>
               </div>
                 <div class="box">
-                  <div class="skills-card"  >
+                  <div class="skills-card skill">
                     <img class="skills-card-img"
                       src="./images/javascript.svg"
                       alt=""
@@ -134,13 +134,13 @@
             <h2 class="heading"><span>Back-End</span></h2>
             <div class="counter">
               <div class="box">
-                <div class="skills-card"  >
+                <div class="skills-card skill">
                   <img class="skills-card-img" src="./images/nodejs.svg" alt="" />
                   <span class="skills-card-name">Node </span>
                 </div>
               </div>
               <div class="box">
-                <div class="skills-card" class="box">
+                <div class="skills-card skill" class="box">
                   <img class="skills-card-img" src="./images/mongodb2.png" alt="" />
                   <span class="skills-card-name">MongoDB </span>
                 </div>
@@ -174,7 +174,7 @@
 
 <!----------project section starts here-->
 
-<section  id="projects"  class="nav-link projects" id="goproject">
+<section  id="projects">
   <h1 class="heading"><span>Projects</span></h1>
 
   <div class="box-container">
@@ -184,19 +184,18 @@
         src="./images/shopcluesimg.png"
         alt=""
       />
-
       <h3 class="project-title">Shop clues Clone</h3>
       <p  class="project-description">
         An E-commerse website was built with all features,
         like, adding to cart, Login-Sign Up ,Making Purchase 
         and payment. Individual project.
       </p>
-      <p  class="project-description">HTML5 || CSS3 || JavaScript || NodeJS || MongoDB</p>
+      <p  class="project-tech-stack">HTML5 || CSS3 || JavaScript || NodeJS || MongoDB</p>
       <div>
-        <a target="_blank" href="https://github.com/Vsanjay021/psychedelic-chicken-276" class="project-github-link"
+        <a class="project-github-link" target="_blank" href="https://github.com/Vsanjay021/psychedelic-chicken-276" class="project-github-link"
           ><button class="btn">GitHub <i class="fas fa-download"></i></button
         ></a>
-        <a
+        <a class="project-deployed-link"
           target="_blank"
           href="https://drive.google.com/file/d/13Q0B1Zvdx59hruU5wAO670oDqiSiN90Z/view?usp=share_link" class="project-deployed-link"
           ><button class="btn">
@@ -218,12 +217,12 @@
         like for buying luxury fashions, adding to cart, 
         Login-Sign Up, Making Purchase and payment. Team of 5.
       </p>
-      <p class="project-description">HTML5 || CSS3 || JavaScript</p>
+      <p class="project-tech-stack">HTML5 || CSS3 || JavaScript</p>
       <div>
-        <a target="_blank" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381" class="project-github-link"
+        <a class="project-github-link" target="_blank" href="https://github.com/hrithikvishwakarma001/complex-oranges-7381" class="project-github-link"
           ><button class="btn">GitHub <i class="fas fa-download"></i></button
         ></a>
-        <a
+        <a class="project-deployed-link"
           target="_blank"
           href="https://drive.google.com/file/d/12lTtFohlsQFaU2yAD1zKBdxCOeLnE4be/view?usp=share_link" class="project-deployed-link"
           ><button class="btn">
@@ -245,12 +244,12 @@
         like, adding to cart, Login-Sign Up ,Making Purchase 
         and payment. Individual project.
       </p>
-      <p class="project-description">HTML5 || CSS3 || JavaScript</p>
+      <p class="project-tech-stack">HTML5 || CSS3 || JavaScript</p>
       <div>
-        <a target="_blank" href="https://github.com/Vsanjay021/thoughtful-advertisement-6741" class="project-github-link"
+        <a class="project-github-link" target="_blank" href="https://github.com/Vsanjay021/thoughtful-advertisement-6741" class="project-github-link"
           ><button class="btn">GitHub <i class="fas fa-download"></i></button
         ></a>
-        <a
+        <a class="project-deployed-link"
           target="_blank"
           href="https://drive.google.com/file/d/1PXJHKwwhzOqKq6s_uz4eWIEyUNABXBO_/view?usp=share_link" class="project-deployed-link"
           ><button class="btn">
@@ -272,12 +271,12 @@
         like, adding to cart, Login-Sign Up ,Making Purchase 
         and payment. Individual project.
       </p>
-      <p  class="project-description">HTML5 || CSS3 || JavaScript || NodeJS || MongoDB</p>
+      <p  class="project-tech-stack">HTML5 || CSS3 || JavaScript || NodeJS || MongoDB</p>
       <div>
-        <a target="_blank" href="https://github.com/Vsanjay021/psychedelic-chicken-276" class="project-github-link"
+        <a class="project-github-link" target="_blank" href="https://github.com/Vsanjay021/psychedelic-chicken-276" class="project-github-link"
           ><button class="btn">GitHub <i class="fas fa-download"></i></button
         ></a>
-        <a
+        <a class="project-deployed-link"
           target="_blank"
           href="https://drive.google.com/file/d/13Q0B1Zvdx59hruU5wAO670oDqiSiN90Z/view?usp=share_link" class="project-deployed-link"
           ><button class="btn">
@@ -292,7 +291,7 @@
 <!---contact section starts here-->
 
 
-<section id="gocontact" class="nav-link contact" id="contact">
+<section  id="contact">
   <h1 class="heading"><span>contact</span> me</h1>
 
   <div class="row">

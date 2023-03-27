@@ -34,9 +34,9 @@ $(document).ready(function () {
   //   console.log("hii")
   // }
   
-  function gotodrive(){
-    window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
-  }
+  // function gotodrive(){
+  //   window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link");
+  // }
 
   GitHubCalendar(".calendar", "Vsanjay021");
 
@@ -52,10 +52,18 @@ $(document).ready(function () {
   }).then((r) => console.log(r));
 
   
-  let resumebtn1=document.getElementById("resume-button-1").addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
-  })
+  // let resumebtn1=document.getElementById("resume-button-1").addEventListener("click",()=>{
+  //   window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
+  // })
 
-  let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
-    window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
-  })
+  // let resumebtn2=document.getElementById("resume-button-2").addEventListener("click",()=>{
+  //   window.location.assign("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link")
+  // })
+  //Resume button line
+document.getElementById('resume-link-2').addEventListener("click",()=>{
+  window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link","_blank")
+})
+
+document.getElementById('resume-link-1').addEventListener("click",()=>{
+  window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link","_blank")
+})
