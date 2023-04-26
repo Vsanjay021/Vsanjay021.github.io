@@ -61,9 +61,9 @@ $(document).ready(function () {
   // })
   //Resume button line
 document.getElementById('resume-link-2').addEventListener("click",()=>{
-  window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link","_blank")
+  window.open("https://drive.google.com/file/d/1Ncv1OfHMuw16i7TU711dljHcZJZvYreE/view?usp=share_link","_blank")
 })
 
 document.getElementById('resume-link-1').addEventListener("click",()=>{
-  window.open("https://drive.google.com/file/d/1xAMT5DS-3kOdrSSTBKUJlggGoKYql-Z3/view?usp=share_link","_blank")
+  window.open("https://drive.google.com/file/d/1Ncv1OfHMuw16i7TU711dljHcZJZvYreE/view?usp=share_link","_blank")
 })
